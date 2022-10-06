@@ -1,0 +1,23 @@
+div#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body, nav a:hover{
+    background-color: #95D3E1;
+}
+header, footer, .book:hover, .join:hover { 
+    background-color: white;
+}
+.book, .join, .msg{
+    background-color: #FCE172;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
+    text-align: center;
+}
+
+div#background {
+    height: 725px;
+    background-color: #134266;
+}
