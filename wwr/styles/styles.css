@@ -2,22 +2,40 @@ div#content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
-body, nav a:hover{
+body, nav a:hover, .home-title, h4, .mgs h2, .msg p{
     background-color: #95D3E1;
+    color:#134266;
 }
-header, footer, .book:hover, .join:hover { 
+nav a, .book, .join, footer a {
+    text-align: center;
+    color: #134266;
+    text-decoration: none;
+}
+header, footer, footer a{ 
+    font-size: 1.2em;
+}
+header, footer, footer a, footer a:hover, .book:hover, .join:hover { 
     background-color: white;
+    color: #134266;
 }
-.book, .join, .msg{
+.logo, .icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%
+}
+nav, .book, .join, .msg{
     background-color: #FCE172;
+    color:#134266;
 }
-
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
 }
-
+footer p a:hover {
+    text-decoration: underline;
+}
 div#background {
     height: 725px;
     background-color: #134266;
+    color: white;
 }
